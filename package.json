@@ -1,0 +1,85 @@
+{
+  "_from": "react-native-connection-info",
+  "_id": "react-native-connection-info@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-VwvRbwH/JtwWfAc9Q0NPmBSd3nw=",
+  "_location": "/react-native-connection-info",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-connection-info",
+    "name": "react-native-connection-info",
+    "escapedName": "react-native-connection-info",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-connection-info/-/react-native-connection-info-1.1.0.tgz",
+  "_shasum": "570bd16f01ff26dc167c073d43434f98149dde7c",
+  "_spec": "react-native-connection-info",
+  "_where": "/Users/rekeningku/Documents/Projects/Repositories/new-rn-apollo",
+  "author": {
+    "name": "Zaro Megagenta",
+    "email": "zaro.megagenta@gmail.com",
+    "url": "https://github.com/zaromev"
+  },
+  "bugs": {
+    "url": "https://github.com/zaromev/react-native-connection-info/issues"
+  },
+  "bundleDependencies": false,
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-commit": "npm run lint",
+      "commit-msg": "validate-commit-msg"
+    }
+  },
+  "deprecated": false,
+  "description": "Higher order component for React Native to detect network connection state.",
+  "devDependencies": {
+    "babel-eslint": "6.1.2",
+    "commitizen": "2.8.6",
+    "cz-conventional-changelog": "1.2.0",
+    "eslint": "3.3.1",
+    "eslint-config-airbnb": "10.0.1",
+    "eslint-plugin-import": "1.14.0",
+    "eslint-plugin-jsx-a11y": "2.1.0",
+    "eslint-plugin-react": "6.1.2",
+    "eslint-plugin-react-native": "2.0.0",
+    "ghooks": "1.3.2",
+    "semantic-release": "4.3.5",
+    "validate-commit-msg": "2.7.0"
+  },
+  "homepage": "https://github.com/zaromev/react-native-connection-info#readme",
+  "keywords": [
+    "react-native",
+    "network",
+    "NetInfo"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "react-native-connection-info",
+  "peerDependencies": {
+    "react": ">=0.14",
+    "react-native": ">=0.4",
+    "react-redux": ">=3.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaromev/react-native-connection-info.git"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "eslint src && eslint redux.js",
+    "precommit": "npm run lint",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "version": "1.1.0"
+}
